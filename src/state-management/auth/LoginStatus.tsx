@@ -1,5 +1,4 @@
 import useAuthStore from "./store";
-import useAuth from "./useAuth";
 
 const LoginStatus = () => {
   const { user, login, logout } = useAuthStore();
